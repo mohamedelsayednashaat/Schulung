@@ -13,9 +13,15 @@ pipeline {
       }
     }
 
+    stage('Sonarcube Quality Gates') {
+      steps {
+        echo 'Sonarcube'
+      }
+    }
+
     stage('Deploy') {
       steps {
-        echo 'Deploy'
+        echo 'Deploying'
       }
     }
 
