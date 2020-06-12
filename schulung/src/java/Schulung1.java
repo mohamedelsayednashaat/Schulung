@@ -4,4 +4,5 @@
  * @CopyRights ISO-GRUPPE GmbH
  **/
 public class Schulung1 {
+    final String x="";
 }
