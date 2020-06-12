@@ -13,9 +13,15 @@ pipeline {
       }
     }
 
+    stage('Akzeptanztest') {
+      steps {
+        echo 'Akzeptanztest durchfuehren'
+      }
+    }
+
     stage('Deploy') {
       steps {
-        echo 'Deploy'
+        echo 'Deploying'
       }
     }
 
